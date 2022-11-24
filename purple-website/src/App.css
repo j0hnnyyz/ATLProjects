@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap');
+
+.mainP{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #D4C2FF;
+}
+
+.studyButton{
+    background-color: #9871F5;
+}
+
+.classButton{
+    background-color: #04D361;
+}
+
+.initButtons{
+    text-transform: none;
+    transition: box-shadow 0.5s;
+    border-radius: 8px;
+    border-style: none;
+    padding: 30px 60px;
+
+    color: #FFFFFF;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}   
+
+.initButtons:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px rgba(33,33,33,.2);
+}
